@@ -1,9 +1,10 @@
 import java.util.Scanner;
 public class Atributos {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-        Scanner s = new Scanner(System.in);  //crear un objeto Scanner
+	private static Scanner s;
+
+	public static void main(String[] args) { 
+		s = new Scanner(System.in);
         
         String palabra;
         int numero;
