@@ -2,8 +2,8 @@
 
 public class Bloque51POO {
 	public static void main(String[] args) {
-		Guerrero g1 = new Guerrero();
-		Guerrero g2 = new Guerrero();
+		B51Guerrero g1 = new B51Guerrero();
+		B51Guerrero g2 = new B51Guerrero();
 		
 		g1.nombre = "Goku";
 		g1.fuerza = 99;
