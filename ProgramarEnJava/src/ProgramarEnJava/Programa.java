@@ -22,24 +22,27 @@ public class Programa {
 		
 		persona4.IntroducirDNI("13245678H");
 		persona4.IntroducirDescripcion("Este es Ilias y tiene un coche grande, es un buen amigo :)");
-		// Mostrando datos de las personas
 		
+		// Mostrando datos de las personas
 		// persona1
 		persona1.MostrarDatos();
 				
 		// persona2
-		f.InsertarSaltoDeLinea();
+		// Se obtiene tambien los datos asociados, en este caso desde el objeto 'bici' que se crea en el constructor del objeto persona.
+		f.InsertarSaltoDeLinea(); // Se inserta un salto de linea.
 		persona2.MostrarDatos();
 		System.out.println("Bici: " + persona2.ObtenerBici().ObtenerModelo());
 		System.out.println("Precio: " + persona2.ObtenerBici().ObtenerPrecio());
 				
 		// persona3
+		// Se obtiene tambien los datos asociados, en este caso desde el objeto 'moto' que se crea en el constructor del objeto persona
 		f.InsertarSaltoDeLinea();
 		persona3.MostrarDatos();
 		System.out.println("Moto: " + persona3.ObtenerMoto().ObtenerMarca());
 		System.out.println("CC: " + persona3.ObtenerMoto().ObtenerCC());
 
 		// persona3
+		// Se obtiene tambien los datos asociados, en este caso desde el objeto 'coche' que se crea en el constructor del objeto persona
 		f.InsertarSaltoDeLinea();
 		persona4.MostrarDatos();
 		System.out.println("Marca: " + persona4.ObtenerCoche().ObtenerMarca());
@@ -47,10 +50,8 @@ public class Programa {
 		System.out.println("Año: " + persona4.ObtenerCoche().ObtenerAño());
 		
 		// Prueba de funciones
-		f.InsertarSaltoDeLinea();
-		int a = 23;
-		int b= 12;
-		f.InsertarSeparador("-", 43);
-		f.ImprimirResultadoSuma(f.Suma(a, b));
+		f.InsertarSaltoDeLinea(2); // Se insertara 2 saltos de linea
+		f.ImprimirResultadoSuma(f.Suma(2, 3)); // No hace falta explicarlo.. xddd
+		f.InsertarSeparador("-", 43); // Se insertara una linea de 43 caraceteres del tipo "-" Seguida de un salto de linea
 	}
 }
