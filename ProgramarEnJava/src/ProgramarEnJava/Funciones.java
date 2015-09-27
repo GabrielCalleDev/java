@@ -24,7 +24,6 @@ public class Funciones {
 			System.out.println();	
 		}
 	}
-
 	// Suma de dos números pasados por parametros
 	static int Suma(int a, int b){
 		return a + b;

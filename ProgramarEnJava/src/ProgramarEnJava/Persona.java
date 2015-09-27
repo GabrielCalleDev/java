@@ -6,7 +6,6 @@ public class Persona {
 	private Moto moto;		// Se crea el objeto moto de la clase Moto
 	private Bici bici;		// Se crea el objeto bici de la clase Bici
 	private Coche coche;	// Se crea el objeto coche de la clase Coche
-	
 	// Constructores de la clase Persona con diferentes tipos de datos/objetos
 	public Persona(String nombre, int edad){
 		this.nombre = nombre;
@@ -27,9 +26,10 @@ public class Persona {
 		edad = e;
 		coche = new Coche(marca_coche, modelo_coche, año_coche); // Se crea un objeto COCHE dentro del objeto persona
 	}
-	
-	// Metodos para obtener datos de la clase persona.
-	// Tambien obtiene datos de otras clases: Bici, Moto, Coche
+	/* --------------------------------------------------------
+	* Metodos para obtener datos de la clase persona.
+	* Tambien obtiene datos de otras clases: Bici, Moto, Coche
+	* ---------------------------------------------------------*/
 	public void IntroducirDNI(String dni){
 		this.dni = dni;
 	}
