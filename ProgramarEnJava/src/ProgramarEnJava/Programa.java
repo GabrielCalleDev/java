@@ -41,7 +41,7 @@ public class Programa {
 		System.out.println("Moto: " + persona3.ObtenerMoto().ObtenerMarca());
 		System.out.println("CC: " + persona3.ObtenerMoto().ObtenerCC());
 
-		// persona3
+		// persona4
 		// Se obtiene tambien los datos asociados, en este caso desde el objeto 'coche' que se crea en el constructor del objeto persona
 		f.InsertarSaltoDeLinea();
 		persona4.MostrarDatos();
