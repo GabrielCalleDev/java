@@ -12,7 +12,7 @@ public class Programa {
 		
 		// Introduciendo datos de las personas
 		persona1.IntroducirDNI("13245678H");
-		persona1.IntroducirDescripcion("Este es Fausto y es buena persona pero tiene que aprender a ser más resolutor.");
+		persona1.IntroducirDescripcion("Este es Fausto y es buena persona pero tiene que aprender a ser mï¿½s resolutor.");
 		
 		persona2.IntroducirDNI("13245678H");
 		persona2.IntroducirDescripcion("Este es Ismail y tiene una decathlon, un amigo agradable");
@@ -47,7 +47,7 @@ public class Programa {
 		persona4.MostrarDatos();
 		System.out.println("Marca: " + persona4.ObtenerCoche().ObtenerMarca());
 		System.out.println("Modelo: " + persona4.ObtenerCoche().ObtenerModelo());
-		System.out.println("Año: " + persona4.ObtenerCoche().ObtenerAño());
+		System.out.println("AÃ±o: " + persona4.ObtenerCoche().ObtenerAÃ±o());
 		
 		// Prueba de funciones
 		f.InsertarSaltoDeLinea(2); // Se insertara 2 saltos de linea

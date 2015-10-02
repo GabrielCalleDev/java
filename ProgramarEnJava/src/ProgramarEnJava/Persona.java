@@ -21,10 +21,10 @@ public class Persona {
 		edad = e;
 		moto = new Moto(marca_moto, cilindrada);	// Se crea un objeto MOTO dentro del objeto persona
 	}
-	public Persona (String nom, int e, String marca_coche, String modelo_coche, int año_coche){
+	public Persona (String nom, int e, String marca_coche, String modelo_coche, int aÃ±o_coche){
 		nombre = nom;
 		edad = e;
-		coche = new Coche(marca_coche, modelo_coche, año_coche); // Se crea un objeto COCHE dentro del objeto persona
+		coche = new Coche(marca_coche, modelo_coche, aÃ±o_coche); // Se crea un objeto COCHE dentro del objeto persona
 	}
 	/* --------------------------------------------------------
 	* Metodos para obtener datos de la clase persona.
