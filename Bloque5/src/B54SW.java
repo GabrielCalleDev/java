@@ -49,7 +49,7 @@ public class B54SW {
 		this.nombre = nombre;
 	}
 	
-	// Se calculan los ataques con números RANDOM.
+	// Se calculan los ataques con nï¿½meros RANDOM.
 	
 	public int ataque_fisico(){
 		int aleatorio = random.nextInt(2);
@@ -66,7 +66,7 @@ public class B54SW {
 		}
 	}
 	
-	public void daño(int salud){
+	public void daÃ±o(int salud){
 		this.salud -= salud;		
 	}
 }
