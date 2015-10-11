@@ -51,7 +51,7 @@ public class Bloque54JuegoStarWars {
 				salud = luke.ataque_fuerza();
 			}
 			System.out.println(luke.getNombre()+" Ha realizado un ataque de: "+salud);
-			dvader.daño(salud);
+			dvader.daÃ±o(salud);
 			
 			aleatorio = random.nextInt(2);
 			if(aleatorio == 0){
@@ -61,7 +61,7 @@ public class Bloque54JuegoStarWars {
 				salud = yoda.ataque_fuerza();
 			}
 			System.out.println(yoda.getNombre()+" Ha realizado un ataque de: "+salud);
-			dvader.daño(salud);
+			dvader.daÃ±o(salud);
 			
 			// Si Darth vader aun tiene salud puede atacar.
 			if(dvader.getSalud() > 0){
@@ -78,11 +78,11 @@ public class Bloque54JuegoStarWars {
 				System.out.println("?????????????????????????" + aleatorio);
 				//aleatorio = 1;
 				if(aleatorio == 0){
-					luke.daño(salud);
+					luke.daÃ±o(salud);
 					System.out.println("WWWWWWWWWWWWWWWWWWWWWWWWWWWWW");
 				}
 				else{
-					yoda.daño(salud);
+					yoda.daÃ±o(salud);
 					System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
 				}
 				
